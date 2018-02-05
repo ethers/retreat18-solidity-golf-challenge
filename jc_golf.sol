@@ -1,0 +1,1 @@
+pragma solidity ^0.4;contract G{address d;address a;uint x;bool f;uint s;function G(address z){d=msg.sender;a=z;x=5;}function c()payable{assert(msg.sender==d);}function y(){if(!f){s=block.number;f=!f;}else{assert((block.number-s)%105==0);}a.send(x*this.balance/100);x=block.number%100;}}
